@@ -9,6 +9,7 @@
 #include "FreeRTOS.h"
 #include "task.h"
 
+
 // Task to handle the IR sensor and LED
 void vIRTask(void *pvParameters) {
     while (true) {
